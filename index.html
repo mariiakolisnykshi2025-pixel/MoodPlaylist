@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MoodPlaylist</title>
 </head>
 
@@ -22,6 +23,8 @@
         <button>Trying to concentrate on your work</button>
         <button>Dancing with your soul</button>
         <button>Feeling nostalgic</button>
+        <button>Falling in love</button>
+        <button>Going for a long trip</button>
         <button>Looking for a specific mood</button>
 
     </section>
@@ -32,49 +35,51 @@
 
         <h2>Select genres for this mood</h2>
 
-        <label>
-            <input type="checkbox" name="genre" value="synthwave"> Synthwave
-        </label>
+        <div class="genre-list">
 
-        <label>
-            <input type="checkbox" name="genre" value="rock"> Rock
-        </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="rock"> Rock
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="indie"> Indie
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="folk"> Folk
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="pop"> Pop
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="jazz"> Jazz
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="instrumental"> Instrumental
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="classics"> Classics
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="hip-hop"> Hip-hop
+            </label>
+    
+            <label>
+                <input type="checkbox" name="genre" value="electronic"> Electronic
+            </label>
 
-        <label>
-            <input type="checkbox" name="genre" value="indie"> Indie
-        </label>
+        </div>
 
-        <label>
-            <input type="checkbox" name="genre" value="folk"> Folk
-        </label>
 
-        <label>
-            <input type="checkbox" name="genre" value="pop"> Pop
-        </label>
-
-        <label>
-            <input type="checkbox" name="genre" value="jazz"> Jazz
-        </label>
-
-        <label>
-            <input type="checkbox" name="genre" value="instrumental"> Instrumental
-        </label>
-
-        <label>
-            <input type="checkbox" name="genre" value="classics"> Classics
-        </label>
-
-        <label>
-            <input type="checkbox" name="genre" value="hip-hop"> Hip-hop
-        </label>
-
-        <label>
-            <input type="checkbox" name="genre" value="electronic"> Electronic
-        </label>
-
-        <button type="button">Generate Playlist</button>
     </section>
-
+    
+    <button type="button" id="generate-btn">Generate Playlist</button>
 
 
     <section id="playlist-section">
