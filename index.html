@@ -16,28 +16,28 @@
 
     <section id="mood-section">
         <h2>Choose your mood</h2>
-        <button>Depressingly looking out of the window</button>
-        <button>Longing for the beauty of the past</button>
-        <button>Creating epic edits in your head</button>
-        <button>Romanticising your life</button>
-        <button>Trying to concentrate on your work</button>
-        <button>Dancing with your soul</button>
-        <button>Feeling nostalgic</button>
-        <button>Falling in love</button>
-        <button>Going for a long trip</button>
-        <button>Looking for a specific mood</button>
+        <button data-mood="depressed">Depressingly looking out of the window</button>
+        <button data-mood="longing">Longing for the beauty of the past</button>
+        <button data-mood="epic">Creating epic edits in your head</button>
+        <button data-mood="romanticising">Romanticising your life</button>
+        <button data-mood="concentrate">Trying to concentrate on your work</button>
+        <button data-mood="dancing">Dancing with your soul</button>
+        <button data-mood="nostalgic">Feeling nostalgic</button>
+        <button data-mood="love">Falling in love</button>
+        <button data-mood="trip">Going for a long trip</button>
+        <button data-mood="mood">Looking for a specific mood</button>
 
     </section>
 
 
 
-    <section id="genre-section">
+    <section id="genre-section" class="hidden">
 
-        <h2>Select genres for this mood</h2>
+       <h2>Select genres for this mood</h2>
 
         <div class="genre-list">
 
-    
+    <!-- 
             <label>
                 <input type="checkbox" name="genre" value="rock"> Rock
             </label>
@@ -74,15 +74,15 @@
                 <input type="checkbox" name="genre" value="electronic"> Electronic
             </label>
 
+            -->
         </div>
-
 
     </section>
     
-    <button type="button" id="generate-btn">Generate Playlist</button>
+    <button type="button" id="generate-button" class="hidden">Generate Playlist</button>
 
 
-    <section id="playlist-section">
+    <section id="playlist-section" class="hidden">
 
         <h2>Your playlist is ready!</h2>
         <table>
@@ -114,6 +114,8 @@
     <footer>
         <p>Created by <a href="https://github.com/mariiakolisnykshi2025-pixel" target="_blank">Mariia</a></p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

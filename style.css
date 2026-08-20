@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+.hidden {
+    display: none !important;
+}
+
 header {
     text-align: center;
     margin-bottom: 40px;
@@ -96,10 +100,10 @@ section h2 {
     transform: translateY(-2px);
 }
 
-#generate-btn {
+#generate-button {
     display: block;
     margin:0 auto;   
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     background-color: #c28cf5; 
     color: rgb(73, 21, 108);
     border: 1px solid #3f3f46;
@@ -110,7 +114,7 @@ section h2 {
     transition: all 0.2s ease; 
 }
 
-#generate-btn:hover {
+#generate-button:hover {
     background-color: #e0f76d;
     color: rgb(73, 21, 108);
     border-color: #ddf128;
