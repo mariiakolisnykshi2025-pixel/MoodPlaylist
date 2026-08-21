@@ -181,3 +181,55 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    #mood-section button, 
+    #genre-section label {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        margin: 4px;
+    }
+
+    #playlist-section {
+        padding: 15px 10px;
+        overflow-x: auto; 
+    }
+
+    #playlist-section table {
+        font-size: 0.8rem;
+    }
+
+    #playlist-section th, 
+    #playlist-section td {
+        padding: 8px 6px; 
+    }
+
+    #playlist-section th:nth-child(4),
+    #playlist-section td:nth-child(4) {
+        display: none;
+    }
+
+    #playlist-section td a {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+}
