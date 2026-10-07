@@ -1,5 +1,5 @@
 # MoodPlaylist 🎧
-**Live Demo:** [//mariiakolisnykshi2025-pixel.github.io/MoodPlaylist/] 
+**Live Demo:** [//mariiakolisnykshi2025-pixel.github.io/MoodPlaylist/](//mariiakolisnykshi2025-pixel.github.io/MoodPlaylist/)
 
 A responsive web application that generates personalized music playlists based on the user's current emotional state and genre preferences using the YouTube Data API v3.
 
